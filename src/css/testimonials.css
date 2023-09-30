@@ -1,0 +1,12 @@
+.testimonials-list {
+    list-style: none;
+}
+.testimonials-title {
+    color: var(--white, #FCF9F9);
+    font-family: Manrope;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: -0,03em;
+}
