@@ -7,6 +7,9 @@
 @media (min-width: 768px) {}
 
 
+.hero-section{
+    padding-top: 100px;
+}
 
 .hero-container {
     position: relative;
@@ -15,11 +18,17 @@
 }
 
 .hero-title-container {
+/* margin-left: 40px; */
 margin-left: 40px;
+    position: absolute;
+    left: 410px;
+}
+
+.hero-foto{
+    float: left;
 }
 
 .hero-title {
-    color: var(--white-color);
         font-size: 54px;
         font-weight: 400;
         line-height: 1.18;
@@ -48,6 +57,9 @@ margin-left: 40px;
             justify-content: center;
             align-items: center;
             gap: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
 }
 
 .hero-button-svg {
@@ -67,11 +79,13 @@ justify-content: center;
 flex-direction: column;
 position: absolute;
 right: 0;
-top: 0;
+top: 14px;
 }
 
 .hero-hand-made-svg {
     fill: var(--yellow-color);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-hand-made-paragraph {
@@ -80,4 +94,13 @@ top: 0;
         font-weight: 400;
         line-height: normal;
         letter-spacing: -0.04em;
+        text-align: center;
+}
+
+.hero-img-map {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 142.159px;
+    flex-shrink: 0;
 }
