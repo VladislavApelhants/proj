@@ -15,6 +15,7 @@
 @import url('./your-order.css');
 @import url('./testimonials.css');
 @import url('./footer.css');
+@import url('./menu.css');
 
 
 :root {
@@ -31,4 +32,3 @@
   -webkit-text-size-adjust: 100%;
 
 }
-

@@ -9,13 +9,6 @@
 
 /* common */
 
-body {
-    font-family: 'Manrope', sans-serif;
-
-    color: var(--white-color);
-    background-color: var(--black-color);
-}
-
 .visually-hidden {
     position: absolute;
     width: 1px;
