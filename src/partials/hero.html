@@ -1,5 +1,5 @@
 <section>
-  <div class="hero-container">
+  <div class="hero-container container">
     <img
       srcset="
         ./src/img/hero/hero-girl-mobile-335w.jpg    335w,
@@ -10,39 +10,44 @@
         ./src/img/hero/hero-girl-desctop-784w-2.jpg 784w
       "
       src="./src/img/hero/hero-girl-desctop-392w.jpg"
-      sizes="(min-width: 1280px) 392px, (min-width: 768px) 413px, (max-width: 375px) 335w"
+      sizes="(min-width: 1280px) 392px, (min-width: 768px) 413px, (max-width: 375px) 335px"
+      alt="a girl in a gray embroidered shirt"
     />
-    <h1 class="hero-title">
-      Reviving the traditional
-      <span class="hero-title-Ukrainian">Ukrainian</span> artistry in every
-      stitch.
-    </h1>
-    <button class="hero-button" type="button" id="button-order">
-      Order
-      <svg
-        class="hero-button-svg"
-        width="26"
-        height="10"
-        aria-label="icon-arrow"
-      >
-        <use href="/src/public/icons.svg#icon-arrow"></use>
-      </svg>
-    </button>
-    <div class="hero-hand-made-container">
-      <svg
-        class="hero-hand-made-svg"
-        width="52"
-        height="51"
-        aria-label="icon-sun"
-      >
-        <use href="/src/public/icons.svg#icon-sun"></use>
-      </svg>
-      <p class="hero-hand-made-paragraph">all embroidery is made by hand</p>
+    <div class="hero-title-container">
+      <h1 class="hero-title">
+        Reviving the traditional
+        <span class="hero-title-Ukrainian">Ukrainian</span> artistry in every
+        stitch.
+      </h1>
+      <button class="hero-button" type="button" id="button-order">
+        Order
+        <svg
+          class="hero-button-svg"
+          width="26"
+          height="10"
+          aria-label="icon-arrow"
+        >
+          <use href="./src/public/icons.svg#icon-arrow"></use>
+        </svg>
+      </button>
     </div>
-    <img
-      srcset="./src/img/hero/hero-map-desctop-278w-2.jpg"
-      src="./src/img/hero/hero-map-desctop-139w.jpg"
-      alt="ornament with a map of Ukraine"
-    />
+    <div class="hero-end-container">
+      <div class="hero-hand-made-container">
+        <svg
+          class="hero-hand-made-svg"
+          width="52"
+          height="51"
+          aria-label="icon-sun"
+        >
+          <use href="../src/public/icons.svg#icon-sun"></use>
+        </svg>
+        <p class="hero-hand-made-paragraph">all embroidery is made by hand</p>
+      </div>
+      <img
+        srcset="./src/img/hero/hero-map-desctop-278w-2.jpg"
+        src="./src/img/hero/hero-map-desctop-139w.jpg"
+        alt="ornament with a map of Ukraine"
+      />
+    </div>
   </div>
 </section>
