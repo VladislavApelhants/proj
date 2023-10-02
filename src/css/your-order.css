@@ -195,6 +195,18 @@ screen and (max-device-pixel-ratio: 2) and (max-width: 767px) {
         display: inline-flex;
         justify-content: left;
     }
+
+    .order-container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        gap: 50px;
+        background-image: url('../img/your-order/order-bg-elem-tablet.png');
+        background-repeat: no-repeat;
+        background-position: left bottom;
+
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -211,13 +223,6 @@ screen and (max-device-pixel-ratio: 2) and (max-width: 767px) {
         padding-left: 32px;
         padding-right: 32px;
         padding-bottom: 79px;
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-evenly;
-        gap: 50px;
-        background-image: url('../img/your-order/order-bg-elem-tablet.png');
-        background-repeat: no-repeat;
-        background-position: left bottom;
         margin-bottom: 100px;
     }
 
@@ -232,6 +237,11 @@ screen and (max-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 12
     .order-bg-img {
         background-image: url('../img/your-order/order-bg-tablet@2.jpg');
     }
+
+    .order-container {
+        background-image: url('../img/your-order/order-bg-elem-tablet@2.png');
+    }
+
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
@@ -245,14 +255,8 @@ screen and (max-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 12
         width: 1280px;
         padding-left: 20px;
         padding-right: 20px;
-        background-image: url('../img/your-order/order-bg-elem-tablet.png');
-        background-repeat: no-repeat;
-        background-position: left bottom;
         margin-bottom: 150px;
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-evenly;
-        gap: 50px;
+        background-image: url('../img/your-order/order-bg-elem-desktop.png');
     }
 }
 
@@ -261,6 +265,10 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) and (max-width: 1439p
 screen and (max-device-pixel-ratio: 2) and (min-width: 1280px) and (max-width: 1439px) {
     .order-bg-img {
         background-image: url('../img/your-order/order-bg-desktop-1282w@2.jpg');
+    }
+
+    .order-container {
+        background-image: url('../img/your-order/order-bg-elem-desktop@2.png');
     }
 }
 
@@ -274,6 +282,11 @@ screen and (max-device-pixel-ratio: 2) and (min-width: 1280px) and (max-width: 1
         max-width: 666px;
     }
 
+    .order-container {
+        width: 1440px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
