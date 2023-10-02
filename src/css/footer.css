@@ -40,3 +40,31 @@ img {
   background-color: var(--black-color);
   padding-top: 40px;
 }
+
+.footer-title {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.23;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: var(--white-color);
+}
+
+.footer-title-span {
+  color: var(--yellow-color);
+}
+
+.footer-links {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  text-align: left;
+  color: var(--white-color);
+}
+
+.footer-section-links {
+  display: flex;
+  min-width: 280px;
+  min-height: 61px;
+  gap: 25px 40px;
+}
