@@ -1,6 +1,10 @@
 .testimonials-section {
     padding: 150px 100px;
 }
+.testimonials-list {
+    display: flex;
+    column-gap: 26px;
+}
 .testimonials-title {
     color: var(--white, #FCF9F9);
     font-family: Manrope;
@@ -12,6 +16,19 @@
 }
 .testimonials-list {
     list-style: none;
+    padding: 0;
+}
+.testimonials-item {
+    padding: 0 18px 18px 18px;
+    border-radius: 4px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+}
+
+.person-img {
+    margin-top: -28px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 .testimonials-person-title {
     color: var(--white, #FCF9F9);
