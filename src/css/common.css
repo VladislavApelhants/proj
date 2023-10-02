@@ -4,9 +4,7 @@
     --black-color: #1C2225;
     --yellow-color: #ECD979;
     --white-color: #FCF9F9;
-    --primary-text-color: rgba(252, 249, 249, 0.10);
     --primary-text-color: rgba(252, 249, 249, 0.40);
-    --primary-text-color: rgba(252, 249, 249, 0.50);
 }
 
 /* common */
@@ -49,6 +47,5 @@
 @media (min-width: 1440px) {
     .container {
         max-width: 1280px;
-        
     }
 }
