@@ -81,5 +81,7 @@
   .header-open-btn {
     display: none;
   }
-
+.tell-style {
+  margin-left: auto;
+}
 }
