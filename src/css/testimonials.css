@@ -1,3 +1,17 @@
+/* Mobile */
+@media screen and (max-width:767px) {
+    .testimonials-item-second
+    .testimonials-item-third {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width:1279px) {
+    .testimonials-item-third {
+        display: none;
+    }
+}
 .testimonials-section {
     padding: 150px 100px;
 }
