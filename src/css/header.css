@@ -43,13 +43,14 @@
 .link-address {
   display: none;
 }
-.mobile-menu-item {
-  
+.header-open-btn {
+  background-color: var(--black-color);
   align-items: flex-start;
   display: flex;
   width: 44px;
   height: 30px;
   justify-content: center;
+  border: none;
 }
 
 
@@ -77,5 +78,8 @@
   .header-nav-item {
     text-transform: uppercase;
   } 
+  .header-open-btn {
+    display: none;
+  }
 
 }
