@@ -9,13 +9,6 @@
 
 /* common */
 
-body {
-    font-family: 'Manrope', sans-serif;
-
-    color: var(--white-color);
-    background-color: var(--black-color);
-}
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -27,11 +20,6 @@ body {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-}
-
-.is-hidden {
-    opacity: 0;
-    visibility: hidden;
 }
 
 .container {
