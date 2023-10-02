@@ -18,6 +18,7 @@
 .testimonials-list {
     display: flex;
     column-gap: 26px;
+    width: calc((100% - 52px) / 3);
 }
 .testimonials-title {
     color: var(--white, #FCF9F9);
