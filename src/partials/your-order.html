@@ -11,49 +11,53 @@
         <h2 class="order-title visually-hidden">Your order</h2>
       </div>
       <div class="order-container">
-        <h2 class="order-title">
-          <span class="order-title-orig">Your order </span>
-          is our priority: Personalized approach and quality of service
-        </h2>
-        <form class="order-form">
-          <div class="order-form-input-wrapper">
-            <input
-              type="text"
-              class="order-form-input"
-              name="user-name"
-              pattern="[a-zA-Zа-яА-ЯіІїЇєЄҐґ']+"
-              placeholder="Enter your full name"
-              required
-            />
-          </div>
-          <div class="order-form-input-wrapper">
-            <input
-              type="email"
-              class="order-form-input"
-              name="user_email"
-              placeholder="Enter your email"
-              required
-            />
-          </div>
-          <div class="order-form-field-wrapper-comment">
-            <textarea
-              class="order-form-comment"
-              name="user-comment"
-              placeholder="Comments"
-            ></textarea>
-          </div>
-          <button class="order-form-submit" type="submit">
-            Send
-            <svg
-              class="order-btn-icon"
-              width="26"
-              height="10"
-              aria-label="icon arrow"
-            >
-              <use href="../public/icons.svg#icon-arrow"></use>
-            </svg>
-          </button>
-        </form>
+        <div class="order-form-container">
+          <h2 class="order-title">
+            <span class="order-title-orig">Your order </span>
+            is our priority: Personalized approach and quality of service
+          </h2>
+          <form class="order-form">
+            <div class="order-form-input-wrapper">
+              <input
+                type="text"
+                class="order-form-input"
+                name="user-name"
+                pattern="[a-zA-Zа-яА-ЯіІїЇєЄҐґ']+"
+                placeholder="Enter your full name"
+                required
+              />
+            </div>
+            <div class="order-form-input-wrapper">
+              <input
+                type="email"
+                class="order-form-input"
+                name="user_email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div class="order-form-field-wrapper-comment">
+              <textarea
+                class="order-form-comment"
+                name="user-comment"
+                placeholder="Comments"
+              ></textarea>
+            </div>
+            <div class="order-btn">
+              <button class="order-form-submit" type="submit">
+                Send
+                <svg
+                  class="order-btn-icon"
+                  width="26"
+                  height="10"
+                  aria-label="icon arrow"
+                >
+                  <use href="../public/icons.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
         <img
           class="order-img"
           srcset="
