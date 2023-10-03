@@ -47,6 +47,7 @@
   background-color: var(--black-color);
   align-items: flex-start;
   display: flex;
+  
   width: 44px;
   height: 30px;
   justify-content: center;
@@ -68,6 +69,7 @@
   
   .header-nav {
     display: flex;
+    margin-right: auto;
   }
   
   .header-nav-list {
@@ -81,5 +83,16 @@
   .header-open-btn {
     display: none;
   }
-
+.header-social-list {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-left: 20px;
+}
+.header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 60px;
+}
 }
