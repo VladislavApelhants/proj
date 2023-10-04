@@ -154,7 +154,7 @@
   }
 }
 
-/* DESKTOP 1280 */
+/* DESKTOP 1280 px*/
 
 @media screen and (min-width: 1280px) {
   .footer {
@@ -173,7 +173,7 @@
   }
 }
 
-/* DESKTOP 1440 */
+/* DESKTOP 1440  px*/
 
 @media screen and (min-width: 1440px) {
   .footer {
