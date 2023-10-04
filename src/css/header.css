@@ -37,6 +37,8 @@
   align-items: flex-start;
   gap: 8px;
 }
+
+
 .header-nav {
   display: none;
 }
@@ -47,6 +49,7 @@
   background-color: var(--black-color);
   align-items: flex-start;
   display: flex;
+  
   width: 44px;
   height: 30px;
   justify-content: center;
@@ -65,9 +68,14 @@
   align-items: center;
   gap: 10px;
   }
+
+  .link-address:hover, .link-address:focus {
+      border: 1px solid var(--yellow, #ECD979);
+    }
   
   .header-nav {
     display: flex;
+    margin-right: auto;
   }
   
   .header-nav-list {
@@ -81,5 +89,19 @@
   .header-open-btn {
     display: none;
   }
-
+.header-social-list {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-left: 20px;
+}
+.header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 60px;
+}
+.header-social-item:hover, .header-social-item:focus {
+  border: 1px solid var(--yellow, #ECD979);
+}
 }
