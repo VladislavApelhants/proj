@@ -1,6 +1,7 @@
 .order-bg-img {
     margin-left: auto;
     margin-right: auto;
+    background-size: 375px 550px;
     background-repeat: no-repeat;
     margin-bottom: 80px;
 }
@@ -140,8 +141,6 @@
 
 @media screen and (max-width: 767px) {
     .order-bg-img {
-        width: 375px;
-        height: 550px;
         background-image: url('../img/your-order/order-bg-mobile.jpg');
         background-size: 100% 100%;
     }
@@ -196,7 +195,7 @@ screen and (max-device-pixel-ratio: 2) and (max-width: 767px) {
         justify-content: left;
     }
 
-    .order-container {
+    .order-form-container {
         background-repeat: no-repeat;
         background-position: left bottom;
     }
@@ -211,8 +210,7 @@ screen and (max-device-pixel-ratio: 2) and (max-width: 767px) {
 @media screen and (min-width: 768px) and (max-width: 1279px) {
     .order-bg-img {
         background-image: url('../img/your-order/order-bg-tablet.jpg');
-        width: 768px;
-        height: 776px;
+        background-size: 768px 776px;
         margin-bottom: 100px;
     }
 
@@ -225,6 +223,7 @@ screen and (max-device-pixel-ratio: 2) and (max-width: 767px) {
         background-image: url('../img/your-order/order-bg-elem-tablet.png');
         background-position: left bottom;
         background-repeat: no-repeat;
+        background-size: 323px 484px;
     }
 
     .order-form-container {
@@ -247,14 +246,12 @@ screen and (max-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 12
     .order-container {
         background-image: url('../img/your-order/order-bg-elem-tablet@2x.png');
     }
-
 }
 
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
     .order-bg-img {
         background-image: url('../img/your-order/order-bg-desktop-1282w.jpg');
-        max-width: 1280px;
-        height: 776px;
+        background-size: 1280px 776px;
         margin-bottom: 150px;
     }
 
@@ -270,6 +267,7 @@ screen and (max-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 12
         background-repeat: no-repeat;
         background-position: left bottom;
         background-image: url('../img/your-order/order-bg-elem-desktop.png');
+        background-size: 289px 484px;
     }
 }
 
@@ -288,8 +286,7 @@ screen and (max-device-pixel-ratio: 2) and (min-width: 1280px) and (max-width: 1
 @media screen and (min-width: 1440px) {
     .order-bg-img {
         background-image: url('../img/your-order/order-bg-desktop-1440w.jpg');
-        max-width: 1440px;
-        height: 776px;
+        background-size: 1440px 776px;
     }
 
     .order-title {
@@ -309,6 +306,7 @@ screen and (max-device-pixel-ratio: 2) and (min-width: 1280px) and (max-width: 1
         background-image: url('../img/your-order/order-bg-elem-desktop.png');
         background-repeat: no-repeat;
         background-position: left bottom;
+        background-size: 325px 484px;
     }
 }
 
@@ -317,5 +315,9 @@ screen and (min-resolution: 2dppx) and (min-width: 1440px),
 screen and (max-device-pixel-ratio: 2) and (min-width: 1440px) {
     .order-bg-img {
         background-image: url('../img/your-order/order-bg-elem-desktop@2x.png');
+    }
+
+    .order-container {
+        background-image: url('../img/your-order/order-bg-elem-desktop.png');
     }
 }
