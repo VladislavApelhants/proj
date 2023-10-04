@@ -86,6 +86,11 @@
   .header-nav-item {
     text-transform: uppercase;
   } 
+
+  .header-nav-item:hover, .header-nav-item:focus {
+    color: var(--yellow, #ECD979);
+  }
+
   .header-open-btn {
     display: none;
   }
