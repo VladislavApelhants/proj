@@ -88,7 +88,7 @@
   } 
 
   .header-nav-item:hover, .header-nav-item:focus {
-    border: 1px solid var(--yellow, #ECD979);
+    color: var(--yellow, #ECD979);
   }
 
   .header-open-btn {
