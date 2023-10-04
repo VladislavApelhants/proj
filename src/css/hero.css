@@ -42,7 +42,7 @@
     align-items: center;
     gap: 10px;
             /* margin-right: auto; */
-    transition: border 25s cubic-bezier(.4, 0, .2, 1);
+    transition: border 250ms cubic-bezier(.4, 0, .2, 1);
     padding: 14px 36px;
 }
 
