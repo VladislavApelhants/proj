@@ -73,9 +73,6 @@
   .link-address:hover, .link-address:focus {
       border: 1px solid var(--yellow, #ECD979);
     }
-  .header-social-link:hover, .header-social-link:focus {
-      border: 1px solid var(--yellow, #ECD979);
-    }
   .header-nav-item:hover, .header-nav-item:focus {
       color: var(--yellow, #ECD979);
     }
