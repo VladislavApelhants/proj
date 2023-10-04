@@ -29,6 +29,21 @@
     font-size: 14px;
     width: 155px;
     height: 49px;
+        border-radius: 15px;
+            border: 1px solid rgba(252, 249, 249, 0.10);
+            background-color: var(--black-color);
+            color: var(--white, #FCF9F9);
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: -0.04em;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            /* margin-right: auto; */
+            /* padding: 14px 39px; */
+    transition: border 25s cubic-bezier(.4, 0, .2, 1);
 }
 
 .hero-title {
@@ -204,22 +219,6 @@
 
 .hero-title-Ukrainian{
     color: var(--yellow-color);
-}
-
-.hero-button {
-    border-radius: 15px;
-    border: 1px solid rgba(252, 249, 249, 0.10);
-    background-color: var(--black-color);
-    color: var(--white, #FCF9F9);
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: -0.04em;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    margin-right: auto;
 }
 
 .hero-button:focus, .hero-button:hover {
