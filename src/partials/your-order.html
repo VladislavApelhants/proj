@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="order-section">
+      <div class="order-bg-img">
+        <h2 class="order-title visually-hidden">Your order</h2>
+      </div>
+      <div class="order-container" id="button-order">
+        <div class="order-form-container">
+          <h2 class="order-title">
+            <span class="order-title-orig">Your order </span>
+            is our priority: Personalized approach and quality of service
+          </h2>
+          <form class="order-form">
+            <div class="order-form-input-wrapper">
+              <input
+                type="text"
+                class="order-form-input"
+                name="user-name"
+                pattern="[a-zA-Zа-яА-ЯіІїЇєЄҐґ']+"
+                placeholder="Enter your full name"
+                required
+              />
+            </div>
+            <div class="order-form-input-wrapper">
+              <input
+                type="email"
+                class="order-form-input"
+                name="user_email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+            <div class="order-form-field-wrapper-comment">
+              <textarea
+                class="order-form-comment"
+                name="user-comment"
+                placeholder="Comments"
+              ></textarea>
+            </div>
+            <div class="order-btn">
+              <button class="order-form-submit" type="submit">
+                Send
+                <svg
+                  class="order-btn-icon"
+                  width="90"
+                  height="22"
+                  aria-label="icon arrow"
+                >
+                  <use href="../public/icons.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+        <img
+          class="order-img"
+          srcset="
+            ./img/your-order/order-img-524w.jpg   524w,
+            ./img/your-order/order-img-1048w.jpg 1048w,
+            ./img/your-order/order-img-638w.jpg   638w,
+            ./img/your-order/order-img-1276w.jpg 1276w
+          "
+          sizes="(min-width: 1280px) 524px, (min-width: 768px) 638px"
+          src="./img/your-order/order-img-638w.jpg"
+          alt="order image"
+        />
+      </div>
+    </section>
+  </body>
+</html>
