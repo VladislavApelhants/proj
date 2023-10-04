@@ -25,7 +25,8 @@
     width: 320px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .order-title {
@@ -149,6 +150,7 @@
 
     .order-container {
         width: 375px;
+        margin-bottom: 80px;
     }
 
     .order-title {
@@ -201,7 +203,7 @@ screen and (max-device-pixel-ratio: 2) and (max-width: 767px) {
         justify-content: left;
     }
 
-    .order-form-container {
+    .order-container-bg {
         background-repeat: no-repeat;
         background-position: left bottom;
     }
@@ -210,7 +212,6 @@ screen and (max-device-pixel-ratio: 2) and (max-width: 767px) {
         width: 638px;
         height: 521px;
     }
-
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -221,16 +222,19 @@ screen and (max-device-pixel-ratio: 2) and (max-width: 767px) {
         margin-bottom: 100px;
     }
 
+    .order-container-bg {
+        background-image: url('../img/your-order/order-bg-elem-tablet.png');
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        background-size: 323px 484px;
+        margin-bottom: 100px;
+    }
+
     .order-container {
         width: 768px;
         height: 1340px;
         padding-left: 32px;
         padding-right: 32px;
-        margin-bottom: 100px;
-        background-image: url('../img/your-order/order-bg-elem-tablet.png');
-        background-position: left bottom;
-        background-repeat: no-repeat;
-        background-size: 323px 484px;
     }
 
     .order-form-container {
@@ -250,7 +254,7 @@ screen and (max-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 12
         background-image: url('../img/your-order/order-bg-tablet@2x.jpg');
     }
 
-    .order-container {
+    .order-container-bg {
         background-image: url('../img/your-order/order-bg-elem-tablet@2x.png');
     }
 }
@@ -263,19 +267,22 @@ screen and (max-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 12
         margin-bottom: 150px;
     }
 
-    .order-container {
-        width: 1280px;
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-bottom: 150px;
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-evenly;
-        gap: 50px;
+    .order-container-bg {
         background-repeat: no-repeat;
         background-position: left bottom;
         background-image: url('../img/your-order/order-bg-elem-desktop.png');
         background-size: 289px 484px;
+        margin-bottom: 150px;
+    }
+
+    .order-container {
+        width: 1280px;
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        gap: 50px;
     }
 }
 
@@ -286,7 +293,7 @@ screen and (max-device-pixel-ratio: 2) and (min-width: 1280px) and (max-width: 1
         background-image: url('../img/your-order/order-bg-desktop-1282w@2x.jpg');
     }
 
-    .order-container {
+    .order-container-bg {
         background-image: url('../img/your-order/order-bg-elem-desktop@2x.png');
     }
 }
@@ -303,20 +310,22 @@ screen and (max-device-pixel-ratio: 2) and (min-width: 1280px) and (max-width: 1
         max-width: 666px;
     }
 
+    .order-container-bg {
+        background-image: url('../img/your-order/order-bg-elem-desktop.png');
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-size: 325px 484px;
+        margin-bottom: 150px;
+    }
+
     .order-container {
         width: 1440px;
-        margin-left: auto;
-        margin-right: auto;
         padding-left: 100px;
         padding-right: 100px;
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-evenly;
         gap: 50px;
-        background-image: url('../img/your-order/order-bg-elem-desktop.png');
-        background-repeat: no-repeat;
-        background-position: left bottom;
-        background-size: 325px 484px;
     }
 }
 
@@ -327,7 +336,7 @@ screen and (max-device-pixel-ratio: 2) and (min-width: 1440px) {
         background-image: url('../img/your-order/order-bg-desktop-1440w@2x.jpg');
     }
 
-    .order-container {
+    .order-container-bg {
         background-image: url('../img/your-order/order-bg-elem-desktop.png');
     }
 }
