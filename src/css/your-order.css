@@ -1,6 +1,4 @@
 .order-bg-img {
-    width: 375px;
-    height: 550px;
     margin-left: auto;
     margin-right: auto;
     background-repeat: no-repeat;
@@ -142,6 +140,8 @@
 
 @media screen and (max-width: 767px) {
     .order-bg-img {
+        width: 375px;
+        height: 550px;
         background-image: url('../img/your-order/order-bg-mobile.jpg');
         background-size: 100% 100%;
     }
