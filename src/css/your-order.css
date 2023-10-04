@@ -104,7 +104,7 @@
 
 .order-form-submit {
     display: flex;
-    min-width: 145px;
+    width: 145px;
     height: 49px;
     justify-content: center;
     align-items: center;
@@ -211,7 +211,7 @@ screen and (max-device-pixel-ratio: 2) and (max-width: 767px) {
 @media screen and (min-width: 768px) and (max-width: 1279px) {
     .order-bg-img {
         background-image: url('../img/your-order/order-bg-tablet.jpg');
-        max-width: 768px;
+        width: 768px;
         height: 776px;
         margin-bottom: 100px;
     }
@@ -253,7 +253,7 @@ screen and (max-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 12
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
     .order-bg-img {
         background-image: url('../img/your-order/order-bg-desktop-1282w.jpg');
-        max-width: 1282px;
+        width: 1282px;
         margin-bottom: 150px;
     }
 
@@ -287,7 +287,7 @@ screen and (max-device-pixel-ratio: 2) and (min-width: 1280px) and (max-width: 1
 @media screen and (min-width: 1440px) {
     .order-bg-img {
         background-image: url('../img/your-order/order-bg-desktop-1440w.jpg');
-        max-width: 1440px;
+        width: 1440px;
     }
 
     .order-title {
